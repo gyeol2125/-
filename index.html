@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Today's Homework</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Today's Homework</h1>
+    </header>
+
+    <main>
+        <section class="board">
+            <div class="note">
+                <h2>Haechan</h2>
+                <div class="password-area">
+                    <input type="password" placeholder="Enter password" />
+                    <button onclick="checkPassword(this, 'haechan123')">Enter</button>
+                </div>
+                <div class="homework-content hidden">
+                    <p>No homework uploaded yet.</p>
+                </div>
+            </div>
+
+            <div class="note">
+                <h2>Seojun</h2>
+                <div class="password-area">
+                    <input type="password" placeholder="Enter password" />
+                    <button onclick="checkPassword(this, 'seojun123')">Enter</button>
+                </div>
+                <div class="homework-content hidden">
+                    <p>No homework uploaded yet.</p>
+                </div>
+            </div>
+
+            <div class="note">
+                <h2>Student 3</h2>
+                <div class="password-area">
+                    <input type="password" placeholder="Enter password" />
+                    <button onclick="checkPassword(this, 'student3')">Enter</button>
+                </div>
+                <div class="homework-content hidden">
+                    <p>No homework uploaded yet.</p>
+                </div>
+            </div>
+
+            <div class="note class-info">
+                <h2>Class Info</h2>
+                <p>📅 Monday & Thursday<br>🕒 7:00 PM ~ 8:30 PM</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

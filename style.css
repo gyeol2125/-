@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #c3f2e3;
+}
+
+header {
+  padding: 1rem 2rem;
+  background-color: transparent;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.note {
+  background-color: #fff8c6;
+  width: 250px;
+  min-height: 180px;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  transform: rotate(-2deg);
+  transition: transform 0.2s;
+}
+
+.note:hover {
+  transform: rotate(0deg) scale(1.05);
+}
+
+.note h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.password-area {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.password-area input {
+  flex: 1;
+  padding: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.password-area button {
+  padding: 0.3rem 0.6rem;
+  border: none;
+  background-color: #4fb286;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.password-area button:hover {
+  background-color: #3e8f6b;
+}
+
+.homework-content {
+  margin-top: 0.8rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.class-info {
+  background-color: #ffe0cc;
+  transform: rotate(2deg);
+}
